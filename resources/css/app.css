@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #f4f4f4;
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.navbar, .sidenav {
+    background-color: #333;
+    color: white; 
+}
+
+.sidenav {
+    padding: 15px; 
+    height: 100%; 
+}
+
+.sidenav h4 {
+    padding-top: 15px; 
+    border-bottom: 1px solid gray; 
+    padding-bottom: 15px; 
+}
+
+.sidenav ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.sidenav ul li {
+    padding: 10px; 
+    border-bottom: 1px solid #ddd; 
+}
+
+@media screen and (max-width: 767px) {
+    .sidenav, .row.content {
+        height: auto;
+        padding: 15px;
+    }
+}
+
+
+.row.content {
+    padding: 20px; 
+    min-height: 600px; 
+    background-color: white;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse; 
+}
+
+.table th, .table td {
+    border: 1px solid #ddd; 
+    padding: 12px; 
+}
+
+.table th {
+    background-color: #f9f9f9; 
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1; 
+}
+
+.button, .btn {
+    background-color: #007bff; 
+    color: white;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #0056b3; 
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px; 
+}
+
+
+footer {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+}
+
+.close {
+    color: white;
+    opacity: 1; 
+}
